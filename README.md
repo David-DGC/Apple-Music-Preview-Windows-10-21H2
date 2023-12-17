@@ -1,5 +1,5 @@
 # Apple Music Preview for Windows 10
-The Windows 11 exclusive Apple Music Preview app running on Windows 10 21H2!
+The Windows 11 exclusive Apple Music Preview app for all versions of Windows 10 2004 to 22H2!
 
 ![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/1ad7c28c-561e-48e5-a12a-534ff6cfc897)
 
@@ -9,7 +9,7 @@ This is an installer for the new Apple Music Client. It's supposed to be exclusi
 
 (And yes, lossless and music downloads work fine. The actual app isn't modified in any way other than the AppxManifest to allow it to run on older versions of Windows.)
 
-Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, just Windows 11 is buggier and more bloated with spyware. Funny, ain't it? So Apple Music can run on Windows 10 21H2 just fine. 
+Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, just Windows 11 is buggier and more bloated with spyware. Funny, ain't it? So Apple Music can run on Windows 10 just fine. 
 
 # Installation Instructions
 
@@ -23,6 +23,10 @@ Just like in this image.
 4. Right click the **Installer.bat** file, and run it as administrator!
 
 You may see some errors in red, don't panic! These are usually because the dependencies the script is trying to install are already on your system or are there is a newer version installed.
+
+**Additional Steps for version 2004** - You will have to download the Microsoft Edge WebView2 Runtime (https://go.microsoft.com/fwlink/p/?LinkId=2124703) to use Apple Music or you'll get an error on starting the app.
+
+And that's it!
 
 If you encounter any issues, refer to the steps below. :)
 
@@ -85,8 +89,8 @@ Here's an example of how it should look like now:
 Uninstall Apple Music like any other Microsoft Store app, by going to **Settings > Apps > Apple Music Preview > Uninstall**, then just go to your Documents and delete the previous version's "AppleMusicClient" folder and that's it, uninstalled!
 
 # Known issues 
-None that I know of :D. At least none that aren't in the app itself. They can be replicated on Windows 11 as well.
+None that I know of that aren't in the regular app itself. They can be replicated on Windows 11 as well.
 
 # Notes
-- This has not been tested on any Windows 10 version from before 21H2. But it *should* work just fine. As the system files from 2004 and beyond are the same.
+- This has not been tested on any Windows 10 version from before 2004. But it *should* work just fine, although you may have to modify the MinVersion in the AppxManifest to match your version from before 2004.
 
