@@ -6,6 +6,7 @@ The Windows 11 exclusive Apple Music Preview app running on Windows 10 21H2!
 
 # What does this do?
 This is an installer for the new Apple Music Client. It's supposed to be exclusive to Windows 11.
+(And yes, lossless and music downloads work fine. The actual app isn't modified in any way other than the AppxManifest to allow it to run on older versions of Windows.)
 
 Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, just Windows 11 is buggier and more bloated with spyware. Funny, ain't it? So Apple Music can run on Windows 10 21H2 just fine. 
 
