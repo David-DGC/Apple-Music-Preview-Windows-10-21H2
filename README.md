@@ -9,7 +9,7 @@ This is an installer for the new Apple Music Client. It's supposed to be exclusi
 
 Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, just Windows 11 is buggier and more bloated with spyware. Funny, ain't it? So Apple Music can run on Windows 10 21H2 just fine. 
 
-# Installation
+# Installation Instructions
 
 1. Go to the **releases** page, and there will be a .zip containing all of the files needed to install this. Download that file.
 2. Go to Settings > Update and Security > For Developers, and enable "Install apps from any source, including loose files."
@@ -20,10 +20,17 @@ Just like in this image.
 3. Now open and extract the zip file.
 4. Right click the **Installer.bat** file, and run it as administrator!
 
+You may see some errors in red, don't panic! These are usually because the dependencies the script is trying to install are already on your system or are there is a newer version installed.
+
 If you encounter any issues, refer to the steps below. :)
 
 # Troubleshooting
-Sometimes there may be UWP apps running or services that are running that the script cannot stop. A simple way to fix this is to go into Task Manager and go to the "Startup" tab. And disable everything, then reboot.
+Issue 1: Sometimes the Apple Music icon doesn't show in the Start Menu or anywhere, and manually double-clicking the .exe in the Documents folder shows an error like this.
+![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/f9c11ade-e4ba-45de-bb75-fb6f1deb8873)
+To fix this, delete the "AppleMusicClient" folder in Documents completely and run the script as admin again, this usually fixes this.
+
+
+Issue 2: Sometimes there may be UWP apps running or services that are running that the script cannot stop. A simple way to fix this is to go into Task Manager and go to the "Startup" tab. And disable everything, then reboot.
 
 ![image](https://user-images.githubusercontent.com/70412932/235554700-0de40509-0670-4a95-9e83-433de4da9c3a.png)
 
@@ -56,9 +63,15 @@ Then you'll need to download a ".msixbundle" file from a source like [https://st
 
 6. Copy the contents inside this extracted folder to the "AppleMusic" folder you just emptied out.
 
-7. Then in that folder where you just copied those files, find and delete the "AppxMetadata" folder, "AppxSignature.p7x" file and "AppxBlockMap" file. Then find the "AppxManifest" file. Open it in an app like Notepad++ or jjust regular Notepad and find **MinVersion="XX.X.XXXXX.X"**. Replace that with **MinVersion="10.0.19041.0"** and save the file.
-    
-8. Follow the installation instructions, and that's it! (Before installing, uninstall the previous version in Settings and go to your Documents and delete the previous version's "AppleMusicClient" folder.)
+7. Then in that folder where you just copied those files, find and delete the "AppxMetadata" folder and the "AppxSignature.p7x" and "AppxBlockMap" files.
+![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/25a6da91-37e7-4ddd-8641-df435cdd0577)
+
+8. Then find the "AppxManifest" file. Open it in an app like Notepad++ or just regular Notepad and find **MinVersion="XX.X.XXXXX.X"**. Replace that with **MinVersion="10.0.19041.0"** and save the file.
+
+Here's an example of how it should look like now:
+![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/9ad07d9b-375a-45e9-b3a2-66db2cc76719)
+
+9. Follow the installation instructions, and that's it! (Before installing, uninstall the previous version in Settings and go to your Documents and delete the previous version's "AppleMusicClient" folder.)
 
 # How to uninstall
 Uninstall Apple Music like any other Microsoft Store app, by going to **Settings > Apps > Apple Music Preview > Uninstall**, then just go to your Documents and delete the previous version's "AppleMusicClient" folder and that's it, uninstalled!
