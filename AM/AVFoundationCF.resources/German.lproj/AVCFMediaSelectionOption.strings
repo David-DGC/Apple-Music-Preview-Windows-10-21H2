@@ -1,0 +1,17 @@
+/* When a media selection option has a title in its metadata, arrange the language code next to it, e.g. "Director's Commentary - English" */
+"SUBTITLE_TRACK_DISPLAY_FORMAT" = "%1$@ - %2$@";
+
+/* Use this as the option's language name if it's missing */
+"UNKNOWN_LANGUAGE" = "Unbekannt";
+
+/* Append one or more characteristics, sometimes with format information, to a legible option's display name, e.g. "English CC Easy Reader" */
+"SDH_SUBTITLE_FORMAT" = "UT (%1$@)";
+"EASYTOREAD_SUBTITLE_FORMAT" = "%1$@ Leseanfänger";
+"CC_SUBTITLE_FORMAT" = "%1$@ CC";
+"FORCEDONLY_SUBTITLE_FORMAT" = "%1$@ Erzwungen";
+
+/* Append one or more characteristics, sometimes with format information, to an audible option's display name, e.g. "Russian Overdub Audio Dolby Digital". */
+"DESCRIBESVIDEO_AUDIO_FORMAT" = "%1$@ AD";
+"VOICEOVERTRANSLATION_AUDIO_FORMAT" = "%1$@ Overdub-Audio"; /* This characteristic will be used for voice overdubs for which a narrator speaks over the main program audio in another language (e.g. Russian, Polish). */
+"AUDIOENCODING_AUDIO_FORMAT" = "%1$@ %2$@";
+"ORIGINAL_AUDIO_FORMAT" = "Original: %1$@";
