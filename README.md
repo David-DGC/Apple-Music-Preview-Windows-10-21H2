@@ -24,7 +24,8 @@ Just like in this image.
 
 You may see some errors in red, don't panic! These are usually because the dependencies the script is trying to install are already on your system or are there is a newer version installed.
 
-**Additional Steps for version 2004** - You will have to download the Microsoft Edge WebView2 Runtime (https://go.microsoft.com/fwlink/p/?LinkId=2124703) to use Apple Music or you'll get an error on starting the app.
+## Additional Steps for Windows 10 Version 2004
+You will have to download the Microsoft Edge WebView2 Runtime (https://go.microsoft.com/fwlink/p/?LinkId=2124703) to use Apple Music or you'll get an error on starting the app.
 
 And that's it!
 
