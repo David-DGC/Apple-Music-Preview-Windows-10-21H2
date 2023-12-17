@@ -26,7 +26,9 @@ If you encounter any issues, refer to the steps below. :)
 
 # Troubleshooting
 Issue 1: Sometimes the Apple Music icon doesn't show in the Start Menu or anywhere, and manually double-clicking the .exe in the Documents folder shows an error like this.
+
 ![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/f9c11ade-e4ba-45de-bb75-fb6f1deb8873)
+
 To fix this, delete the "AppleMusicClient" folder in Documents completely and run the script as admin again, this usually fixes this.
 
 
