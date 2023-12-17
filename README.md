@@ -71,7 +71,8 @@ Then you'll need to download a ".msixbundle" file from a source like [https://st
    
 ![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/25a6da91-37e7-4ddd-8641-df435cdd0577)
 
-9. Then find the "AppxManifest" file. Open it in an app like Notepad++ or just regular Notepad and find **MinVersion="XX.X.XXXXX.X"**. Replace that with **MinVersion="10.0.19041.0"** and save the file.
+
+8. Then find the "AppxManifest" file. Open it in an app like Notepad++ or just regular Notepad and find **MinVersion="XX.X.XXXXX.X"**. Replace that with **MinVersion="10.0.19041.0"** and save the file.
 
 Here's an example of how it should look like now:
 
