@@ -1,7 +1,8 @@
 # Apple Music Preview for Windows 10
 The Windows 11 exclusive Apple Music Preview app running on Windows 10 21H2!
 
-![image]([https://user-images.githubusercontent.com/70412932/235557203-fab09981-7a29-4eca-a365-c98d693e1336.png](https://github.com/kuba03099/Ver.1.1027.8705.0-Apple-Music-Preview-Windows-10-21H2/assets/152105133/c0e62c1d-fda2-4faa-ad4e-32871e3899d7))
+![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/1ad7c28c-561e-48e5-a12a-534ff6cfc897)
+
 
 # What does this do?
 This is an installer for the new Apple Music Client. It's supposed to be exclusive to Windows 11.
