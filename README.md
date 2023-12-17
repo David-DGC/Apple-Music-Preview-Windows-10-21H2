@@ -71,7 +71,9 @@ Then you'll need to download a ".msixbundle" file from a source like [https://st
 8. Then find the "AppxManifest" file. Open it in an app like Notepad++ or just regular Notepad and find **MinVersion="XX.X.XXXXX.X"**. Replace that with **MinVersion="10.0.19041.0"** and save the file.
 
 Here's an example of how it should look like now:
+
 ![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/9ad07d9b-375a-45e9-b3a2-66db2cc76719)
+
 
 9. Follow the installation instructions, and that's it! (Before installing, uninstall the previous version in Settings and go to your Documents and delete the previous version's "AppleMusicClient" folder.)
 
