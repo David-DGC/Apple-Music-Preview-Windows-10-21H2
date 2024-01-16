@@ -9,7 +9,7 @@ This is an installer for the new Apple Music Client. It's supposed to be exclusi
 
 (Yes, lossless and music downloads work fine. The actual app isn't modified in any way other than the AppxManifest to allow it to run on older versions of Windows.)
 
-Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, just Windows 11 is buggier and more bloated with spyware. Funny, ain't it? So Apple Music can run on Windows 10 just fine. 
+Windows 11 is just a skin on top of Windows 10, with some extra bloat. So the overall actual system is nearly identical, hence why Apple Music can run on Windows 10 just fine. 
 
 # Installation Instructions
 
