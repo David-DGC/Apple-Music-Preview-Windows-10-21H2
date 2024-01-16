@@ -46,7 +46,7 @@ Issue 2: Sometimes there may be UWP apps running or services that are running th
 You can re-enable these after you're done installing.
 
 # How to upgrade to the latest version if there is a new release
-To upgrade Apple Music, wait for a new release with the latest version to drop. Before installing, uninstall the previous version and go to your Documents and delete the previous version's "AppleMusicClient" folder. Then just follow the installation instructions for the latest version.
+To upgrade Apple Music, wait for a new release with the latest version to release. Before installing, go to your Documents and delete the previous version's "AppleMusicClient" folder. Do not uninstall the app in Settings or you'll lose your Downloads and login data. Then just follow the installation instructions for the latest version.
 
 # If a new release hasn't been released or the project doesn't get maintained anymore
 Download the last release available and extract it. Delete all the contents inside of the "AppleMusic" folder, but don't delete the folder itself.
@@ -84,7 +84,7 @@ Here's an example of how it should look like now:
 ![image](https://github.com/kuba03099/Apple-Music-Preview-Windows-10-21H2/assets/152105133/9ad07d9b-375a-45e9-b3a2-66db2cc76719)
 
 
-9. Follow the installation instructions, and that's it! (Before installing, uninstall the previous version in Settings and go to your Documents and delete the previous version's "AppleMusicClient" folder.)
+9. Follow the installation instructions, and that's it! (Before installing, go to your Documents and delete the previous version's "AppleMusicClient" folder. Do not uninstall the app in Settings or you'll lose your Downloads and login data.)
 
 # How to uninstall
 Uninstall Apple Music like any other Microsoft Store app, by going to **Settings > Apps > Apple Music Preview > Uninstall**, then just go to your Documents and delete the previous version's "AppleMusicClient" folder and that's it, uninstalled!
